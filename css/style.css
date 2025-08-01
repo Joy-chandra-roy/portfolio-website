@@ -19,6 +19,9 @@
 .dark-2{
     color: #474747;
 }
+.bg {
+    background-color: #FFF8F3;
+}
 
 .btn-primary {
     background-color: #FD6E0A;
@@ -83,4 +86,59 @@ nav li a{
 }
 .banner-profile-pic{
     max-width: 580px;
+}
+
+/* About section */
+
+.about {
+    height: 550px;
+    margin: 80px 200px  ;
+    padding: 90px 150px ;
+}
+.about-content {
+     
+}
+.about-title {
+    font-size: 45px;
+    font-weight: 800;
+    text-align: center;
+    margin-bottom: 20px;
+
+}
+.about-text {
+    font-size: 20px;
+    line-height: 1.5;
+    color: #474747;
+    text-align: center;
+}
+.about-details {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* skills section */
+
+.skills {
+    margin: 80px 200px;
+ 
+}
+.skills-heading {
+    padding:  20px 100px;
+    text-align: center;
+}
+.skills-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   
+}
+.skill-card {
+    width: 250px;
+    height: 377px;
+    background-color:#ffffff;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
