@@ -128,10 +128,16 @@ nav li a{
     padding:  20px 100px;
     text-align: center;
 }
+.skills-heading h2 {
+    font-size: 45px;
+    font-weight: 800;
+    margin-bottom: 20px;
+}
 .skills-container {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin-top: 50px;
    
 }
 .skill-card {
@@ -141,4 +147,95 @@ nav li a{
     border-radius: 10px;
     padding: 20px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.skill-card img {
+    width: 100px;
+    height: 100px;
+    margin-bottom: 20px;
+}
+.skill-card h3 {
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+.skill-card p {
+    font-size: 16px;
+    color: #474747;
+    line-height: 1.5;
+}
+
+/* Resume */
+
+.resume {
+    margin: 80px 200px;
+}
+.resume-title {
+    text-align: center;
+    font-size: 45px;
+    font-weight: 800;
+    margin-bottom: 20px;
+}
+.resume-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 50px;
+    gap: 20px;
+}
+.Education,
+.Experience {
+    display: inline-block;
+    gap: 20px;
+}
+.education-item,
+.experience-item {
+    background-color: #ffffff;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.resume-btn{
+    display: flex;
+    margin-top: 20px;
+    justify-content: center;
+}
+
+/* Footer section  */
+.footer{
+    padding: 130px 230px;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    
+  
+}
+.footer-info {
+    max-width: 50%;
+
+}
+.footer-form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    
+}
+.footer-form-container h3{
+    margin-bottom: 20px;
+}
+
+footer input[type="text"],
+footer input[type="email"] ,textarea {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+}
+.footer-copy{
+    margin-top: 100px;
+    text-align: center;
 }
